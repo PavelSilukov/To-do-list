@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "ToDoList\ToDoList.csproj", "{63517F29-04D5-46DF-9450-44D165522FC5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B71FB27-C839-466E-AD29-1A1FC85BC0FE} = {8B71FB27-C839-466E-AD29-1A1FC85BC0FE}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7885B5F3-2897-4C2B-846C-C03532B1113F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListDomain", "ToDoList.Domain\ToDoListDomain.csproj", "{8B71FB27-C839-466E-AD29-1A1FC85BC0FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{7272E0B1-D813-4F84-BFA1-F8CB0E59E5C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListDAL", "ToDoListDAL\ToDoListDAL.csproj", "{856B07A8-1540-4DBB-9A0F-36AC4EA2E756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3A34AABE-0C5A-4786-BDCD-5C48F7F5BA22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoListService", "ToDoListService\ToDoListService.csproj", "{A586FE1C-D3D6-4F01-AF42-302E1A0DAEDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Telegrambot", "Telegrambot", "{D250B1A1-5160-4ADB-90BC-6EC5BFE3C786}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramBot", "TelegramBot\TelegramBot.csproj", "{0F2247EE-1E8C-4AF9-ACD3-1829EF0811C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Map", "..\Map\Map\Map.csproj", "{BBF06D1C-D0B8-4A00-B04D-0999CE2E5A9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63517F29-04D5-46DF-9450-44D165522FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63517F29-04D5-46DF-9450-44D165522FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63517F29-04D5-46DF-9450-44D165522FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63517F29-04D5-46DF-9450-44D165522FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B71FB27-C839-466E-AD29-1A1FC85BC0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B71FB27-C839-466E-AD29-1A1FC85BC0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B71FB27-C839-466E-AD29-1A1FC85BC0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B71FB27-C839-466E-AD29-1A1FC85BC0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856B07A8-1540-4DBB-9A0F-36AC4EA2E756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856B07A8-1540-4DBB-9A0F-36AC4EA2E756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856B07A8-1540-4DBB-9A0F-36AC4EA2E756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856B07A8-1540-4DBB-9A0F-36AC4EA2E756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A586FE1C-D3D6-4F01-AF42-302E1A0DAEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A586FE1C-D3D6-4F01-AF42-302E1A0DAEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A586FE1C-D3D6-4F01-AF42-302E1A0DAEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A586FE1C-D3D6-4F01-AF42-302E1A0DAEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2247EE-1E8C-4AF9-ACD3-1829EF0811C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2247EE-1E8C-4AF9-ACD3-1829EF0811C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2247EE-1E8C-4AF9-ACD3-1829EF0811C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2247EE-1E8C-4AF9-ACD3-1829EF0811C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF06D1C-D0B8-4A00-B04D-0999CE2E5A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF06D1C-D0B8-4A00-B04D-0999CE2E5A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF06D1C-D0B8-4A00-B04D-0999CE2E5A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF06D1C-D0B8-4A00-B04D-0999CE2E5A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B71FB27-C839-466E-AD29-1A1FC85BC0FE} = {7885B5F3-2897-4C2B-846C-C03532B1113F}
+		{856B07A8-1540-4DBB-9A0F-36AC4EA2E756} = {7272E0B1-D813-4F84-BFA1-F8CB0E59E5C3}
+		{A586FE1C-D3D6-4F01-AF42-302E1A0DAEDB} = {3A34AABE-0C5A-4786-BDCD-5C48F7F5BA22}
+		{0F2247EE-1E8C-4AF9-ACD3-1829EF0811C8} = {D250B1A1-5160-4ADB-90BC-6EC5BFE3C786}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0269DF8B-0ACD-4415-BAD9-80AFCF85A7B9}
+	EndGlobalSection
+EndGlobal
